@@ -14,6 +14,7 @@ useLenis()
     <AboutUs/>
     <Features/>
     <Story/>
+
   </div>
   </>;
 }
