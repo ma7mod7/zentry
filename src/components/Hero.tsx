@@ -98,12 +98,12 @@ export const Hero = () => {
                         onClick={handleNextVideos}
                         ref={backgroundVideo} id="video-frame"
                         className="object-cover invisible absolute inset-0 z-50 cursor-pointer h-full w-full"
-                        src={`/public/videos/hero-${nextIndex}.mp4`} autoPlay loop muted />
+                        src={`/videos/hero-${nextIndex}.mp4`} autoPlay loop muted />
 
                     {Array.from({ length: totalVideos }, (_, index) => (
                         <video key={index} id={`video-${index}`}
                             className="object-cover   absolute left-1/2 -translate-x-1/2  h-full w-full"
-                            src={`/public/videos/hero-${index}.mp4`}
+                            src={`/videos/hero-${index}.mp4`}
                             autoPlay
                             loop
                             muted

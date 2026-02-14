@@ -13,7 +13,7 @@ const Features = () => {
             <div className="max-lg:px-2 px-4">
 
                 <GridCard
-                    video="/public/videos/feature-1.mp4"
+                    video="/videos/feature-1.mp4"
                     text="Radint"
                     paragraph="A cross-platform metagame app, turning your activites across web2 and web3 games into rewarding adventures."
                 />
@@ -21,21 +21,21 @@ const Features = () => {
             <div className="grid grid-cols-2 grid-rows-3 gap-4 px-4  mt-10">
                 <TiltCard className="lg:col-span-1 lg:row-span-2 col-span-2 max-lg:px-2 row-span-1 " >
                     <GridCard
-                        video="/public/videos/feature-2.mp4"
+                        video="/videos/feature-2.mp4"
                         text={<>zig<b>m</b>a</>}
                         paragraph="A web3 gaming portal, bringing together the best games, communities, and rewards in one seamless experience."
                     />
                 </TiltCard>
                 <TiltCard className=" md:col-span-1 md:row-span-1 col-span-2 row-span-1 max-lg:px-2" >
                     <GridCard
-                        video="/public/videos/feature-3.mp4"
+                        video="/videos/feature-3.mp4"
                         text={<>nex<b>u</b>s</>}
                         paragraph="A web3 gaming portal, bringing together the best games, communities, and rewards in one seamless experience."
                     />
                 </TiltCard>
                 <TiltCard className="md:col-span-1 md:row-span-1 col-span-2 row-span-1 max-lg:px-2" >
                     <GridCard
-                        video="/public/videos/feature-4.mp4"
+                        video="/videos/feature-4.mp4"
                         text="azul"
                         paragraph="A web3 gaming portal, bringing together the best games, communities, and rewards in one seamless experience."
                     />
@@ -50,7 +50,7 @@ const Features = () => {
                     </div>
                 </TiltCard>
                 <TiltCard className="grid-2">
-                    <video className="size-full object-cover object-center" src="/public/videos/feature-5.mp4" loop muted autoPlay />
+                    <video className="size-full object-cover object-center" src="/videos/feature-5.mp4" loop muted autoPlay />
                 </TiltCard>
 
             </div>

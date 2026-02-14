@@ -51,7 +51,7 @@ export const AboutUs = () => {
 
             <div id="clip" className="h-dvh relative w-screen">
                 <div className="mask-clip-path absolute left-1/2 -translate-x-1/2 top-0 mt-10 w-[30vw] h-96 rounded-2xl z-20 ">
-                    <img src="/public/img/about.webp" className="absolute inset-0 size-full object-cover" alt="" />
+                    <img src="/img/about.webp" className="absolute inset-0 size-full object-cover" alt="" />
                 </div>
             <div className="absolute bottom-[390px] left-1/2 -translate-x-1/2 w-full max-w-96 text-center  font-circular-web text-lg md:max-w-[34rem] gap-3">
                 <p className="text-black">The Game of Games Begins-Your Life, Now An Epic MMOPRG</p>
